@@ -14,7 +14,6 @@ class SettingsViewController: UIViewController
     @IBOutlet weak var defaultTipControl: UISegmentedControl!
     @IBOutlet weak var bgdColorControl: UISegmentedControl!
     let defaults = NSUserDefaults.standardUserDefaults()
-
     
     override func viewDidLoad()
     {

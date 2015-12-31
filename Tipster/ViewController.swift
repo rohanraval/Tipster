@@ -27,7 +27,6 @@ class ViewController: UIViewController
     @IBOutlet weak var peopleControl: UISegmentedControl!
     
     @IBOutlet weak var divView: UIView!
-    //
     
     let defaults = NSUserDefaults.standardUserDefaults()
     
