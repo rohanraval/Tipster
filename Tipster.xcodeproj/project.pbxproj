@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C019F9B1C330F3100DB2160 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C019F9A1C330F3100DB2160 /* SettingsViewController.swift */; };
 		1C6614EF1C32625200D75285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6614EE1C32625200D75285 /* AppDelegate.swift */; };
 		1C6614F11C32625200D75285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6614F01C32625200D75285 /* ViewController.swift */; };
 		1C6614F41C32625200D75285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6614F21C32625200D75285 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C019F9A1C330F3100DB2160 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1C6614EB1C32625200D75285 /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6614EE1C32625200D75285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C6614F01C32625200D75285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				1C6614EE1C32625200D75285 /* AppDelegate.swift */,
 				1C6614F01C32625200D75285 /* ViewController.swift */,
+				1C019F9A1C330F3100DB2160 /* SettingsViewController.swift */,
 				1C6614F21C32625200D75285 /* Main.storyboard */,
 				1C6614F51C32625200D75285 /* Assets.xcassets */,
 				1C6614F71C32625200D75285 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					1C6614EA1C32625200D75285 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = E4YDQF59Y5;
 					};
 					1C6614FE1C32625200D75285 = {
 						CreatedOnToolsVersion = 7.2;
@@ -258,6 +262,7 @@
 			files = (
 				1C6614F11C32625200D75285 /* ViewController.swift in Sources */,
 				1C6614EF1C32625200D75285 /* AppDelegate.swift in Sources */,
+				1C019F9B1C330F3100DB2160 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +402,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tipster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rohan.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tipster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rohan.Tipster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +495,7 @@
 				1C6615151C32625200D75285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C6615161C32625200D75285 /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +504,7 @@
 				1C6615181C32625200D75285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C6615191C32625200D75285 /* Build configuration list for PBXNativeTarget "TipsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +513,7 @@
 				1C66151B1C32625200D75285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
