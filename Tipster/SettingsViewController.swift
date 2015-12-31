@@ -40,7 +40,7 @@ class SettingsViewController: UIViewController
         //sets the selected index number as the default index number
         defaults.setInteger(defaultTipControl.selectedSegmentIndex, forKey: "default_tip_index")
         defaults.synchronize()
-        
+        //set
     }
     
     @IBAction func onColorChange(sender: UISegmentedControl)
