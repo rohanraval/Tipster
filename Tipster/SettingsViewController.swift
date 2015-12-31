@@ -48,7 +48,6 @@ class SettingsViewController: UIViewController
         var colorVals = ["light", "dark"]
         let colorVal = colorVals[bgdColorControl.selectedSegmentIndex]
     
-        //sets the
         if(colorVal == "light")
         {
             let colorNumVal = 0

@@ -59,9 +59,9 @@ class ViewController: UIViewController
       
         if (colorValue == 1)
         {
-            self.view.backgroundColor = UIColor(red: 0, green: 0.0039, blue: 0.4667, alpha: 1.0)
+            self.view.backgroundColor = UIColor(red: 0, green: 0.0039, blue: 0.4667, alpha: 1.0) //blue
             
-            billLine.textColor = UIColor(red: 0.9176, green: 0.4588, blue: 0, alpha: 1.0)
+            billLine.textColor = UIColor(red: 0.9176, green: 0.4588, blue: 0, alpha: 1.0) //orange
             billField.textColor = UIColor(red: 0.9176, green: 0.4588, blue: 0, alpha: 1.0)
             tipLine.textColor = UIColor(red: 0.9176, green: 0.4588, blue: 0, alpha: 1.0)
             tipLabel.textColor = UIColor(red: 0.9176, green: 0.4588, blue: 0, alpha: 1.0)
@@ -78,9 +78,9 @@ class ViewController: UIViewController
         else
         {
             
-            self.view.backgroundColor = UIColor(red: 0.9176, green: 0.4588, blue: 0, alpha: 1.0)//orange
+            self.view.backgroundColor = UIColor(red: 0.9176, green: 0.4588, blue: 0, alpha: 1.0) //orange
             
-            billLine.textColor = UIColor(red: 0, green: 0.0039, blue: 0.4667, alpha: 1.0)
+            billLine.textColor = UIColor(red: 0, green: 0.0039, blue: 0.4667, alpha: 1.0) //blue
             billField.textColor = UIColor(red: 0, green: 0.0039, blue: 0.4667, alpha: 1.0)
             tipLine.textColor = UIColor(red: 0, green: 0.0039, blue: 0.4667, alpha: 1.0)
             tipLabel.textColor = UIColor(red: 0, green: 0.0039, blue: 0.4667, alpha: 1.0)
@@ -94,9 +94,6 @@ class ViewController: UIViewController
             perPersonLabel.textColor = UIColor(red: 0, green: 0.0039, blue: 0.4667, alpha: 1.0)
 
         }
-        
-        //old blue: UIColor(red: 0.098, green: 0, blue: 0.6078, alpha: 1.0)
-        //medium blue: UIColor(red: 0, green: 0.0824, blue: 0.6196, alpha: 1.0)
         
     }
     
