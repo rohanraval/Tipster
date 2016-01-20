@@ -1,7 +1,7 @@
 # Tipster
-Tip Calculator application; pre-work submission for CodePath.
+Tip Calculator application in iOS.
 
-# Pre-work - *Tipster*
+# *Tipster*
 
 **Tipster** is a tip calculator application for iOS.
 
@@ -11,24 +11,15 @@ Time spent: **15** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is complete:
+The following functionality and features are complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-
-The following **optional** features are implemented:
 * [x] Settings page to change the default tip percentage.
-* [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
-
-The following **additional** features are implemented:
-
-- [x] Redesigned UI to more robust structure; added vibrant and colorful themes
+- [x] Robust UI design; added vibrant and colorful themes
 - [x] Settings page includes ability to change between "light" (orange background, blue text) and "dark" (blue background, orange text) color themes on the home page
 - [x] Selected theme is set as default; the user will see the the selected theme every time app is opened until he/she changes the theme
 - [x] Functionality to split the bill up to 4 ways. User selects how many people are splitting the bill and the bill per person is displayed along with the total bill.
 - [x] Per person bill is hidden when the bill is not being split (i.e. the selected number of people splitting the bill is set to 1)
-[x] Added App Icon
+- [x] Added App Icon
 
 ## Video Walkthrough 
 
@@ -38,7 +29,7 @@ Here's a walkthrough of implemented user stories:
 - Walkthrough of the basic functions
 
 <img src='http://imgur.com/xUZq6Zd.gif' title='Video Walkthrough - Basic' width='' alt='Video Walkthrough' />
-- Walkthrough of the advanced functions (settings page: default tip setting, color themes)
+- Walkthrough of the advanced functions (settings page:- default tip setting, color themes)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
